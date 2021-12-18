@@ -1,0 +1,172 @@
+.header{
+    text-align: center;
+    background-color: rgb(79, 102, 235);
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-top: -10px;
+    padding-bottom: -200px;
+}
+
+.first{
+    margin-top: -100px;
+    margin-left: 220px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.first1{
+    margin-top: -100px;
+    margin-left: 230px;
+    font-size: 30px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+img{
+    margin-left: -150px;
+    padding: 10px;
+}
+
+body{
+    background-color: rgb(231, 231, 231);
+}
+
+#report{
+    text-align: left;
+    background-color: white;
+    margin-left: 450px;
+    margin-right: 450px;
+    border-radius: 2.5px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding: 30px;
+    padding-bottom: 5px;
+}
+
+.weath{
+    margin-left: 0px;
+}
+
+.style{
+    margin-left: 50px;
+    margin-top: -40px;
+}
+
+.style1{
+    margin-left: 50px;
+    margin-top: -33px;
+}
+
+footer{
+    background-color: rgb(79, 102, 235);
+    text-align: center;
+    margin-left: -20px;
+    margin-right: -20px;
+    margin-bottom: -20px;
+}
+
+.foot{
+    padding: 20px;
+    margin-top: 390px;
+}
+
+form{
+    text-align: center;
+    margin-left: -50px;
+    margin-bottom: 30px;
+}
+
+input{
+    width: 310px;
+    height: 30px;
+    border-radius: 3.5px;
+}
+
+button{
+    font-size: 21px;
+    margin-top: 10px;
+    background-color: rgb(72, 88, 180);
+    border-radius: 3px;
+    border-style: hidden;
+}
+
+.data{
+    margin-left: 300px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+}
+
+.loc{
+    margin-left: 70px;
+    font-size: 35px;
+    margin-top: -57px;
+}
+
+@media(min-width: 360px) and (max-width: 640px){
+    .header{
+        padding-bottom: -160px;
+        margin-right: -20px;
+    }
+
+    .first{
+        font-size: 20px;
+        margin-left: 128px;
+    }
+
+    img{
+        margin-right: 37px;
+    }
+
+   input{
+        margin-left: 90px;
+        margin-top: 60px;
+        width: 200px;  
+    }
+    button{
+        margin-left: 0px;
+        background-color: rgb(72, 88, 180);
+        border-radius: 3px;
+        border-style: hidden;
+    }
+
+    #report{
+        margin-left: 20px;
+        padding-left: 280px;
+    }
+
+    .weath{
+        margin-left: -280px;
+        
+    }
+
+    .style1{
+        margin-left: -230px;
+        font-size: 25px;
+        margin-top: -40px;
+    }
+
+    .condition{
+        margin-left: -260px;
+        font-size: 25px;
+    }
+
+    :-ms-input-placeholder{
+        font-size: larger;
+    }
+
+    .data{
+        margin-left: -45px;
+        font-size: 25px;
+        margin-top: -50px;
+    }
+
+    .loc{
+        margin-left: -230px;
+    }
+
+    footer{
+        margin-right: -20px;
+        margin-top: -200px;
+    }
+}

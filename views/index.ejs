@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily forecast</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <style>
+        body{
+            background-image: url('img/wp8266416-the-weather-channel-wallpapers.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+    </style>
+    
+    <div class="header">
+        <img src="img/512x512bb.jpg" alt="" width="100" height="100">
+        <p class="first">Daily Weather Report</p>
+    </div>
+
+    <div>
+        <form action="/" method="POST">
+            <input type="text" placeholder="Enter your city,region or country" name="place" required>
+            <button>Search</button>
+        </form>
+    </div>
+
+
+    <div id="report">
+        <img class="weath" src="img/download (1).png" alt="" width="50" height="50">
+        <p class="loc"><%= place %></p>
+        <p class="condition">Feels like</p>
+        <p class="condition"><%= ctemp %> </p><hr>
+        <img class="weath" src="img/thermometer-half-solid.svg" alt="" width="30" height="30">
+        <p class="style1">Temp_c</p> <p class="data"><%= temp_c  %> </p><hr>
+        <img class="weath" src="img/barometer.png" alt="" width="30" height="30">
+        <p class="style1">Pressure</p> <p class="data"><%= Pressure  %> </p><hr>
+        <img class="weath" src="img/humidity.png" alt="" width="30" height="30">
+        <p class="style1">Humidity</p> <p class="data"><%= humid %> </p><hr>
+        <img class="weath" src="img/wind-solid.svg" alt="" width="30" height="30">
+        <p class="style1">Wind_kph</p> <p class="data"><%= windy %> </p><hr>
+        <img class="weath" src="img/visibility.png" alt="" width="35" height="35">
+        <p class="style1">Visibility</p> <p class="data"><%= visibility %> </p>
+    </div>
+</body>
+
+<footer>
+    <p class="foot">ayine-nongre &copy; 2021</p>
+</footer>
+</html>
